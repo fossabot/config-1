@@ -18,8 +18,10 @@ type option struct {
 	filename string
 }
 
+// Option config option.
 type Option func(*option)
 
+// WithFilename assign YAML filename to load.
 func WithFilename(filename string) Option {
 	return func(o *option) {
 		o.filename = filename
