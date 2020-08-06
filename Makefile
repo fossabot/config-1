@@ -29,6 +29,9 @@ test-with-coverage: ## run testing with code coverage and output html file
 lint: $(TOOLS_DIR)/golangci-lint ## lint the source code using golangci
 	$(TOOLS_DIR)/golangci-lint run --fix && $(TOOLS_DIR)/golangci-lint run
 
+.PHONY: ci
+ci: lint test-with-coverage ## list of task that going to be executed on ci
+
 .PHONY: help
 help: ## help information about make commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
