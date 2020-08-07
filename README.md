@@ -3,6 +3,7 @@
 [![CircleCI](https://img.shields.io/circleci/build/github/pk60/config/master?token=1154f9ffcdc4c1bd95f320a7777f920a3e4ca94d)](https://circleci.com/gh/pk60/config)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pk60/config)](https://goreportcard.com/report/github.com/pk60/config)
 [![codecov](https://codecov.io/gh/pk60/config/branch/master/graph/badge.svg)](https://codecov.io/gh/pk60/config)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpk60%2Fconfig.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpk60%2Fconfig?ref=badge_shield)
 
 > Yet another golang configuration library.
 
@@ -53,3 +54,6 @@ Read here: [pkg.go.dev](https://pkg.go.dev/github.com/pk60/config?tab=doc)
 ### License
 
 [Apache-2.0 License](https://github.com/pk60/config/blob/master/LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpk60%2Fconfig.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpk60%2Fconfig?ref=badge_large)
